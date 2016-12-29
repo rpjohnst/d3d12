@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "code\game\game.vcxproj", "{234F5B22-9B2C-415F-A687-4FF4C698ACC0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{665AE549-C045-4A96-8131-EB476F09CADC} = {665AE549-C045-4A96-8131-EB476F09CADC}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "game", "game", "{B8957551-E4FD-43C3-8209-3F8CE3BDFDBA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "assets", "assets\assets.vcxproj", "{665AE549-C045-4A96-8131-EB476F09CADC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0BE12F2B-77FB-43B8-A838-0322A5C51A60} = {0BE12F2B-77FB-43B8-A838-0322A5C51A60}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{0EB51D9B-2C9A-43AA-9CB8-1866050966D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "asset-builder", "code\tools\asset-builder\asset-builder.vcxproj", "{0BE12F2B-77FB-43B8-A838-0322A5C51A60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{234F5B22-9B2C-415F-A687-4FF4C698ACC0}.Debug|x64.ActiveCfg = Debug|x64
+		{234F5B22-9B2C-415F-A687-4FF4C698ACC0}.Debug|x64.Build.0 = Debug|x64
+		{234F5B22-9B2C-415F-A687-4FF4C698ACC0}.Release|x64.ActiveCfg = Release|x64
+		{234F5B22-9B2C-415F-A687-4FF4C698ACC0}.Release|x64.Build.0 = Release|x64
+		{665AE549-C045-4A96-8131-EB476F09CADC}.Debug|x64.ActiveCfg = Debug|x64
+		{665AE549-C045-4A96-8131-EB476F09CADC}.Debug|x64.Build.0 = Debug|x64
+		{665AE549-C045-4A96-8131-EB476F09CADC}.Release|x64.ActiveCfg = Release|x64
+		{665AE549-C045-4A96-8131-EB476F09CADC}.Release|x64.Build.0 = Release|x64
+		{0BE12F2B-77FB-43B8-A838-0322A5C51A60}.Debug|x64.ActiveCfg = Debug|x64
+		{0BE12F2B-77FB-43B8-A838-0322A5C51A60}.Debug|x64.Build.0 = Debug|x64
+		{0BE12F2B-77FB-43B8-A838-0322A5C51A60}.Release|x64.ActiveCfg = Release|x64
+		{0BE12F2B-77FB-43B8-A838-0322A5C51A60}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{234F5B22-9B2C-415F-A687-4FF4C698ACC0} = {B8957551-E4FD-43C3-8209-3F8CE3BDFDBA}
+		{665AE549-C045-4A96-8131-EB476F09CADC} = {B8957551-E4FD-43C3-8209-3F8CE3BDFDBA}
+		{0BE12F2B-77FB-43B8-A838-0322A5C51A60} = {0EB51D9B-2C9A-43AA-9CB8-1866050966D0}
+	EndGlobalSection
+EndGlobal
